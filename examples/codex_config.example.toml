@@ -1,0 +1,13 @@
+[mcp_servers.lumerical]
+command = 'C:\path\to\lumerical-fdtd-mcp\.venv\Scripts\python.exe'
+args = [ 'C:\path\to\lumerical-fdtd-mcp\server.py' ]
+cwd = 'C:\path\to\lumerical-fdtd-mcp'
+
+[mcp_servers.lumerical.env]
+LUMERICAL_ROOT = 'D:\Program Files\Lumerical\v202'
+LUMERICAL_LAUNCHER = 'D:\Program Files\Lumerical\v202\bin\launcher.exe'
+LUMERICAL_FDTD_EXE = 'D:\Program Files\Lumerical\v202\bin\fdtd-solutions.exe'
+LUMERICAL_MODE_EXE = 'D:\Program Files\Lumerical\v202\bin\mode-solutions.exe'
+LUMERICAL_INTERCONNECT_EXE = 'D:\Program Files\Lumerical\v202\bin\interconnect.exe'
+LUMERICAL_DEVICE_EXE = 'D:\Program Files\Lumerical\v202\bin\device.exe'
+PYTHONWARNINGS = 'ignore'

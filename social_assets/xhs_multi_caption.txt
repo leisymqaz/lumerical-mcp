@@ -1,0 +1,15 @@
+标题：让 Codex 接管 Lumerical：FDTD / MODE / INTERCONNECT / DEVICE
+
+正文：
+继续把本地 Lumerical MCP 扩展成多产品版本。现在 Codex 可以通过同一个 MCP 桥接 lumapi，分别打开 FDTD、MODE、INTERCONNECT、DEVICE 会话，执行 Lumerical script，保存/加载工程文件。
+
+这次实操验证了四个最小示例：
+1. FDTD：Si nanoblock + SiO2 substrate，带平面波源和 T/R monitors
+2. MODE：Si/SiO2 波导 + FDE 求模区域
+3. INTERCONNECT：CW Laser - Straight Waveguide - OSA 光路
+4. DEVICE：简单器件几何 + CHARGE solver + mesh
+
+GitHub：
+https://github.com/leisymqaz/lumerical-fdtd-mcp
+
+#Lumerical #FDTD #MODE #INTERCONNECT #DEVICE #MCP #Codex #光子仿真 #科研工具
